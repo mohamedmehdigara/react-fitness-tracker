@@ -7,6 +7,8 @@ import ProgressChart from './components/ProgressChart';
 import GoalForm from "./components/GoalForm";
 import ChallengeForm from "./components/ChallengeForm";
 import Dashboard from './components/Dashboard';
+import StepTracker from './components/StepTracker';
+import "./App.css";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route exact path="/" element={<GoalForm/>} />
         <Route exact path="/" element={<Navbar/>} />
         <Route exact path="/" element={<Dashboard/>} />
+        <Route exact path="/" element={<StepTracker/>} />
+
 
 
 
